@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "YS"
+  },
+  "text": {
+    "more": "한국 흥행 영화의 감독 및 배우를 시각화\n\n방향 : 감독에서 배우로 향하는 유방향 그래프\n노드킈기 : indegree\n노드색깔 : Modulaarity",
+    "intro": "한국영화 감독 및 배우가 함께 작품 활동한 관계도를 시각화햇음",
+    "title": "감동과 배우들"
+  },
+  "legend": {
+    "edgeLabel": "감독, 출연배우 관계",
+    "colorLabel": "소집단(모듈)",
+    "nodeLabel": "감독, 배우"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "gender",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
